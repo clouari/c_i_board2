@@ -7,4 +7,9 @@ class First extends CI_Controller {
 	{
 		echo "첫 번째 컨트롤러.";
 	}
+
+	public function my()
+	{
+		echo "내 꺼얌";
+	}
 }
